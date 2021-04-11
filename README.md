@@ -12,14 +12,18 @@ Instead train this classifier so that the output state looks like the digit you'
 In other words, if I pass in a data point which should be labeled 1, the circuit returns a state whose city_state plot looks like the digit 1.
 
 ## Implementaion details
-- Build Qunatum classifier based on these [tutorilas](https://github.com/kareem1925/Ismailia-school-of-AI) provided by Kareem El Safety
+- Build Qunatum classifier based on these [tutorials](https://github.com/kareem1925/Ismailia-school-of-AI) provided by Kareem El Safety
 - Version 1: use 6 features only from MNIST data set, for digits 0 and 1. Witjout discarding or minimizing this new dataset  (Done, Notebook name: ML-prediction state qiskit.ipynb)
 	- we interuppted kernel at middle of training as loss was so small, so we didn't need to continue training and training time was large.
 
 - Version 2: use 12 features only from MNIST data set, for digits 0 and 1. Witjout discarding or minimizing this new dataset (Done, Notebook name: ML-prediction state qiskit v2.ipynb )
 
 - Version 3: use 6 features only from MNIST data set, for digits 0, 1, 2, and 3. Witjout discarding or minimizing this new dataset (Done, Notebook name: ML-prediction state qiskit v3.ipynb)
-	- unfortunately we couldn't complete training therefore training loss is still high, beacuse it was trained locally beacuse there was problem on IBM Quantum experience and training took alot of time
+	- unfortunately we couldn't complete training therefore training loss is still high, beacuse it was trained locally as there was problem on IBM Quantum experience and training took alot of time.
+	- we visualized correct predictions in  testing.
+	- we had a bug were the predicted state is an invalid state, due to time constarit we couldn't debug it.
+
+
 
 - Train classifier to predict output state looks like the digit
 - Visualize
