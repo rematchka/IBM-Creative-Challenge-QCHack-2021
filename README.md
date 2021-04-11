@@ -18,7 +18,8 @@ In other words, if I pass in a data point which should be labeled 1, the circuit
 
 - Version 2: use 12 features only from MNIST data set, for digits 0 and 1. Witjout discarding or minimizing this new dataset (Done, Notebook name: ML-prediction state qiskit v2.ipynb )
 
-- Version 3: use 6 features only from MNIST data set, for digits 0, 1, 2, and 3. Witjout discarding or minimizing this new dataset (Done, Notebook name: ML-prediction state qiskit v3.ipynb, unfortunately we couldn't complete training therefore training loss is still high, beacuse it was trained locally beacuse there was problem on IBM Quantum experience and training took alot of time)
+- Version 3: use 6 features only from MNIST data set, for digits 0, 1, 2, and 3. Witjout discarding or minimizing this new dataset (Done, Notebook name: ML-prediction state qiskit v3.ipynb)
+	- unfortunately we couldn't complete training therefore training loss is still high, beacuse it was trained locally beacuse there was problem on IBM Quantum experience and training took alot of time
 
 - Train classifier to predict output state looks like the digit
 - Visualize
