@@ -21,8 +21,7 @@ In other words, if I pass in a data point which should be labeled 1, the circuit
 - Version 3: use 6 features only from MNIST data set, for digits 0, 1, 2, and 3. Witjout discarding or minimizing this new dataset (Done, Notebook name: ML-prediction state qiskit v3.ipynb)
 	- unfortunately we couldn't complete training therefore training loss is still high, beacuse it was trained locally as there was problem on IBM Quantum experience and training took alot of time.
 	- we visualized correct predictions in  testing.
-	- we had a bug were the predicted state is an invalid state, due to time constarit we couldn't debug it.
-	- bug was due to that some batch contains only 3 or less classes, since circuit predict up to 4 classes log loss calculation fired exception.
+	- we had a bug, which was due to that some batch contains only 3 or less classes, since circuit predict up to 4 classes log loss calculation fired exception.
 
 
 
