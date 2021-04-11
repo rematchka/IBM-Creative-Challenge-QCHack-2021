@@ -22,6 +22,7 @@ In other words, if I pass in a data point which should be labeled 1, the circuit
 	- unfortunately we couldn't complete training therefore training loss is still high, beacuse it was trained locally as there was problem on IBM Quantum experience and training took alot of time.
 	- we visualized correct predictions in  testing.
 	- we had a bug, which was due to that some batch contains only 3 or less classes, since circuit predict up to 4 classes log loss calculation fired exception.
+	- we know that it's a bug we did were we made weight dimenssion for 4 tesnsor, while it should be 5 (to add bias). but when we use 4 tensor for weight it converges fasters.
 
 
 
