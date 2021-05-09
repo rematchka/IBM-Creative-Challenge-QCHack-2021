@@ -28,3 +28,16 @@ In other words, if I pass in a data point which should be labeled 1, the circuit
 
 - Train classifier to predict output state looks like the digit
 - Visualize
+
+## Visualize
+1. predicted output state for 0
+![Alt text](images/prediction_state_vector_0.png?raw=true "Title")
+
+2. predicted output state for 1
+![Alt text](images/prediction_state_vector_1.png?raw=true "Title")
+
+3. predicted output state for 2
+![Alt text](images/prediction_state_vector_2.png?raw=true "Title")
+
+4. predicted output state for 3
+![Alt text](images/prediction_state_vector_3.png?raw=true "Title")
